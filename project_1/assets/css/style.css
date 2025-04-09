@@ -41,16 +41,18 @@ a {
 .btn:hover {
     opacity:0.9;
 }
-/*header*/
+/*=========header=========*/
+/*===navigation===*/
 .header {
     height: 100vh;
     background-color: #E6F0FF;
+    position:relative;
 }
 
 .navbar {
     display:flex;
     align-items:center;
-    padding-top:50px;
+    padding-top:38px;
 }
 
 .navbar ul {
@@ -85,3 +87,48 @@ a {
 .action-btn {
     padding:13px 16px;
 }
+/*===navigation===*/
+/*===hero-section===*/
+.hero-section {
+    margin-top:130px;
+}
+
+.hero-section .info {
+    width:50.8%
+}
+
+.hero-section .info .sub-title {
+    font-weight:500;
+    font-size:1.8rem;
+    letter-spacing:0.01em;
+    color:#687690;
+}
+
+.hero-section .info .title {
+    margin-top:8px;
+    font-weight:700;
+    font-size:6.4rem;
+    line-height:1.1875;
+    color:#000336;
+}
+
+.hero-section .info .desc {
+    margin-top:30px;
+    font-weight:400;
+    font-size:1.8rem;
+    line-height:2;
+    color:#5A6473;
+}
+
+.hero-section .info .cta {
+    margin-top:40px;
+    width:170px;
+}
+
+.hero-img {
+    position:absolute;
+    bottom:0px;
+    right:calc((100vw - 1100px) / 2 - 100px)
+}
+
+/*===hero-section===*/
