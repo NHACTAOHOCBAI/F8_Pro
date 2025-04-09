@@ -132,3 +132,29 @@ a {
 }
 
 /*===hero-section===*/
+.client {
+    margin-top:122px;
+}
+.client .feedbacks .row {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.client .feedbacks .desc {
+    font-weight:500;
+    font-size:1.6rem;
+    line-header:1.25;
+    color:#7D8589;
+}
+
+.client .feedbacks .rate {
+    margin-top:18px;
+}
+
+.client .cooperators {
+    margin-top:96.5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
