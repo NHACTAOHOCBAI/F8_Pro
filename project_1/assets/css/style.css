@@ -41,6 +41,13 @@ a {
 .btn:hover {
     opacity:0.9;
 }
+
+.multiline-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp,2); /* Số dòng muốn hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 /*=========header=========*/
 /*===navigation===*/
 .header {
@@ -134,7 +141,8 @@ a {
 /*===hero-section===*/
 /*=========client=========*/
 .client {
-    margin-top:122px;
+    margin-top:79px;
+    padding-top:43px;
     padding-bottom:66px;
 }
 .client .feedbacks .row {
@@ -163,7 +171,9 @@ a {
 
 /*=========guides=========*/
 .guides {
-    margin-top:133px;
+    margin-top:40px;
+    padding-top:93px;
+    padding-bottom:79px;
 }
 
 .guides .sub-title {
@@ -202,9 +212,9 @@ a {
 
 .guide-lists {
     margin-top:70px;
-display:flex;
-justify-content:center;
-gap:140px;
+    display:flex;
+    justify-content:center;
+    gap:140px;
 }
 
 .guide-item {
@@ -231,5 +241,102 @@ gap:140px;
 .guides .cta {
     display:block;
     width:170px;
-    margin:48px auto 0;
+    margin:48px auto 79px;
+}
+
+/* featured  */
+/* header */
+.featured {
+    height:100vh;
+    background-color:#F5FAFE;
+    margin-top:41px;
+    padding-top:100px;
+    padding-bottom:110px
+}
+
+.featured-header {
+            position:relative;
+}
+
+.featured-header .sub-title {
+    color:#000339;
+    font-weight:600;
+    font-size:3.5rem;
+    line-height:1;
+}
+
+.featured-header .row {
+    display:flex;
+    justify-content:space-between;
+        margin-top:15px;
+}
+
+.featured-header .desc {
+    color:#5A6473;
+    font-weight:400;
+    font-size:1.6rem;
+    line-height:1.875;
+}
+
+.featured-header .link {
+    color:#0689FF;
+    font-weight:600;
+    font-size:1.8rem;
+     line-height:1.875;
+     display:flex;
+    align-item:center;
+    gap:8px;
+}
+/* list */
+.featured .lists{
+    display:flex;
+    justify-content:space-between;
+    margin-top:68px;
+}
+
+.featured .item {
+    width:350px;
+    border-radius:12px;
+    background-color:white;
+}
+
+.featured .body {
+    padding:17px 38px 22px 20px;
+}
+
+.featured .body .title{
+    font-weight:600;
+    font-size:2rem;
+    line-height:1.2;
+    color:#000339;
+    --line-clamp:2;
+}
+
+.featured .body .address{
+    margin-top:11px;
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1.2;
+    color:#A3A6AB;
+    --line-clamp:3;
+    work-break:break-all;
+}
+
+.featured .body .row{
+    display:flex;
+    justify-content:space-between;
+    margin-top:21px;
+}
+
+.featured .info .label{
+    font-weight:500;
+    font-size:1.4rem;
+    line-height:1;
+    letter-spacing:0.01;
+    color:#4D4D52;
+}
+
+.featured .info .icon{
+  position:relative;
+  top:2px
 }
