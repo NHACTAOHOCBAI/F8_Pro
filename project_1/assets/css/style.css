@@ -340,3 +340,123 @@ a {
   position:relative;
   top:2px
 }
+
+/* statics */
+.statics {
+    margin-top:75px;
+    padding:50px 0px;
+}
+.statics .content {
+    width:1017px;
+}
+
+.statics .row {
+    display:flex;
+}
+
+.statics .thumb {
+    width:50%;
+    position:relative;
+}
+
+.statics .thumb .img{
+    display:block;
+    width:410px;
+    height:460px;
+    object-fit: cover;
+    object-position: center center;
+    margin-left:auto;
+    border-radius:12px;
+}
+
+.statics .info {
+    padding-top:79px;
+    padding-left:165px;
+}
+
+.statics .info .sub-title {
+    font-weight:600;
+    font-size:3.5rem;
+    line-height:1.29;
+    width:269px;
+    color:#000339;
+}
+
+.statics .info::before{
+    position:relative;
+    top:-10px;
+    display:inline-block;
+    content:"";
+    width:41px;
+    height:4px;
+    border-radius:12px;
+    background-color:#000339;
+}
+
+.statics .info .desc{
+    margin-top:20px;
+    font-weight:400;
+    font-size:1.6rem;
+    line-height:1.875;
+    width:309px;
+    color:#5A6473;
+}
+
+.statics .trend {
+    border-radius:0px 0px 12px 12px;
+    background-color:white;
+    padding:45px  23px 40.5px  22px;
+    width:239px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.statics .trend .value {
+    font-weight:700;
+    font-size:2.6rem;
+    letter-space:0.01;
+    color:#000339;
+    width:159px;
+}
+
+.statics .trend .up-arrow {
+    margin-left:auto;
+}
+
+.statics .trend .desc {
+    margin-top:8px;
+    font-weight:400;
+    font-size:1.2rem;
+    line-height:1.5;
+    color:#A7A7A7;
+}
+
+.statics .trend .divider {
+    margin-top:25.5px;
+    height:1.2px;
+    background-color:#E9E9E9;
+}
+
+.statics .trend .avatar-block {
+    margin-top:26px;
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+}
+
+.statics .trend .avatar-group {
+    display:flex;
+}
+
+.statics .trend .avatar-group img{
+  width: 17px; 
+  height: 17px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -3px;
+}
+
+.statics .trend .avatar-group img:first-child{
+  margin-left: 0px;
+}
