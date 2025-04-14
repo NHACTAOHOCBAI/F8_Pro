@@ -46,7 +46,42 @@ a {
 
 .btn:hover {
    opacity:0.9;
+   background-color:#FFB900;
 }
+
+/* header */
+
+.app-header {
+    padding:36px 0px;
+    margin:0px auto;
+    background-color:#FFFCF4;
+}
+
+.app-header .content-container{
+   justify-content:start;
+}
+
+.app-header .navigation {
+   margin-left:auto;
+}
+
+.app-header .navigation .item-lists{
+   display:flex;
+}
+
+.app-header .navigation .item a{
+   padding:0px 21px;
+   font-weight:400;
+   font-size:1.6rem;
+   color:#5F5B53;
+}
+
+.app-header .navigation .item a:hover{
+   font-weight:600;
+   color:#171100;
+   border-bottom:solid black 3px;
+}
+
 /* hero-section */
 .hero-section {
   height:100vh;
@@ -124,7 +159,6 @@ a {
 .hero-btn .primary-btn{
    width:180px;
    height:64px;
-   background-color:#FFB900;
    font-size:1.8rem;
    line-height:1.67;
    font-weight:600;
@@ -192,4 +226,116 @@ a {
     font-weight:400;
        color:#5F5B53;
     margin-bottom:6px;
+}
+
+/* courses-section */
+
+
+.courses-section {
+    margin-top:200px;
+}
+
+.courses-section .content-container{
+    display:block;
+}
+
+.popular-header {
+    display:flex;
+    justify-content:space-between;
+}
+
+.popular-header .direct-btn {
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.courses-info .title {
+    font-family:Sen;
+    font-weight:700;
+    font-size:3.8rem;
+    letter-space:-0.02;
+    color:#171100;
+}
+
+
+.courses-info .desc {
+    margin-top:16px;
+    font-weight:400;
+    font-size:1.8rem;
+   line-height:1.67;
+   color:#5F5B53;
+   width:458px;
+}
+
+.courses-list {
+    margin-top:55px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.course-item {
+    border-radius:12px;
+    width:370px;
+}
+
+.course-item img{
+    height:278px;
+}
+
+.course-item .info{
+    padding:22px;
+    padding-top:16px;
+}
+
+.course-item .course-name{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.course-item .course-name .title{
+    font-weight:600;
+  font-size:1.8rem;
+  line-height:1.67;
+  color:#171100;
+}
+
+.course-item .course-name .rate{
+    display:flex;
+    gap:5px;
+    align-items:center;
+}
+
+.course-item .rate .star-icon{
+    width:18px;
+    height:18px;
+}
+
+.course-item .rate .value{
+   color:#FEA31B;
+}
+
+.course-item .info .desc{
+    margin-top:6px;
+    font-weight:400;
+    font-size:1.4rem;
+    line-height:1.85;
+    color:#5F5B53;
+}
+
+.course-item .info .purchase{
+    margin-top:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.course-item .info .purchase .price{
+    font-weight:600;
+    font-size:1.8rem;
+}
+
+.course-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
