@@ -25,6 +25,26 @@ a {
     width:1170px;
     max-width:calc(100vw - 40px);
     margin:0px auto;
+    height:100%;
+}
+
+.section-title {
+    color:var(--primary-color);
+    font-weight:600;
+    font-size:5rem;
+    line-height:1.2;
+    letter-space:-0.02;
+}
+
+.section-desc {
+    margin-top:18px;
+    text-align:center;
+    color:#575F66;
+    font-weight:300;
+    font-size:1.8rem;
+    line-height:1.67;
+    letter-space:0;
+    width:470px;
 }
 
 .btn {
@@ -41,6 +61,11 @@ a {
 
 .btn:hover {
     opacity:0.9;
+}
+
+.row {
+    display:flex;
+    justify-content:space-between;
 }
 /* app-header */
 .app-header {
@@ -89,7 +114,6 @@ a {
 }
 
 .hero-container {
-    height:100%;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -147,5 +171,82 @@ a {
 .hero-img img:last-child{
    width:210px;
    height410px;
+}
+
+/* services */
+.services {
+    height:100vh;
+    margin-top:170px;
+}
+
+.services__text {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.services-container >.row {
+    margin-top:70px;
+}
+.services__img {
+    width:570px;
+    height:570px;
+}
+ 
+.service__content {
+    margin-left:auto;
+}
+.services-item {
+    display:flex;
+    width:470px;
+    height:128px;
+    padding:21px;
+    border-radius:10px;
+    transition:0.25s;
+}
+
+.services-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services-item:hover .service-item__icon{
+     color:white;
+    background-color:var(--secondary-color);
+}
+
+.service-item__icon {
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    background-color:#EFF6FD;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    color:#10375C;
+     transition:0.25s;
+}
+
+.service-item__content {
+    margin-left:19px;
+    width:350px;
+}
+
+.service-item__title {
+    font-weight:600;
+    font-size:1.8rem;
+    color:var(--primary-color);
+}
+
+.service-item__desc {
+    margin-top:8px;
+    color:#575F66;
+    font-weight:300;
+    font-size:1.6rem;
+    line-height:1.75;
+}
+
+.more-btn {
+    margin-top:55px;
+    font-size:1.8rem;
 }
 
