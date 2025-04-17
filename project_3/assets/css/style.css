@@ -265,6 +265,7 @@ a {
 }
 
 .instruct__desc {
+    margin-top:18px;
     width:470px;
     font-weight:300;
     font-size:1.8rem;
@@ -325,4 +326,55 @@ a {
     font-weight:300;
     margin-top:18px;
         color:#575F66;
+}
+
+/* advertise */
+
+.advertise {
+    margin-top:170px;
+}
+
+.advertise__container {
+    display:flex;
+    height:490px;
+}
+
+.advertise__img {
+    position:relative;
+    width:570px;
+    height:490px;
+}
+
+.advertise__img img:last-child {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.advertise__content {
+    margin-left:auto;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    width:470px;
+}
+
+.advertise__title {
+    color:var(--primary-color);
+    font-size:5rem;
+    line-height:1.2;
+    font-weight:600;
+    letter-space:-0.02;
+}
+
+.advertise__desc {
+    margin-top:18px;
+     font-weight:300;
+    font-size:1.8rem;
+    line-height:1.67;
+    color:#575F66;
+}
+
+.adv-learn-more-btn {
+    margin-top:38px;
 }
